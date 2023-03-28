@@ -34,7 +34,7 @@ public class LabExample {
      * STUDENTS DO NOT NEED TO EDIT ANY CODE AFTER THIS
      */
 
-    // return the answer
+    System.out.println(answer);
     return answer;
   }
 
