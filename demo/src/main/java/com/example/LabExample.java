@@ -11,38 +11,29 @@ public class LabExample {
   //  private static String dataFilePath = "/Users/jerom/Documents/GitHub/class-java/stack-lab/demo/src/main/java/com/example/socksTestData.json";
 
   private static String dataFilePath =
-    "/Users/saket/Documents/GitHub/CLASS_JAVA-WEEK-9/demo/src/mapTestData.json";
-
+  "/Users/saket/Documents/GitHub/CLASS_JAVA-WEEK-9/demo/src/mapTestData.json";
   public static SinglyLinkedList process(SinglyLinkedList input) {
     SinglyLinkedList answer = new SinglyLinkedList();
 
     /*
      * STUDENTS NEED TO ADD/EDIT CODE STARTING HERE
-     * 
      */
-   
-
-    }
-   
-    
 
     // This is example code that can be deleted to help you get started.
     // Here I am simply traversing the list and copying the input list to the output
     // answer list.
     // Students code needs to do something different.
-    LinkedListNode curr = (LinkedListNode)input.head;
+    LinkedListNode curr = input.head;
     while (curr != null) {
-      SinglyLinkedList answer;
       answer.insert(curr.turnRight, curr.street, curr.distance);
       curr = curr.next;
-
     }
 
     /*
      * STUDENTS DO NOT NEED TO EDIT ANY CODE AFTER THIS
      */
 
-    System.out.println(answer);
+    // return the answer
     return answer;
   }
 
