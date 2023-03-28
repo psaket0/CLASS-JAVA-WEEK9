@@ -22,7 +22,7 @@ public class LabExample {
     // This is example code that can be deleted to help you get started.
     // Here I am simply traversing the list and copying the input list to the output
     // answer list.
-    // Students code needs to do something different.
+    // Students code needs to do something different. 
     LinkedListNode curr = input.head;
     while (curr != null) {
       answer.insert(curr.turnRight, curr.street, curr.distance);
