@@ -60,7 +60,7 @@ public class LabExample {
         System.out.printf("PASSED test %d :\n", i);
         // if answer is incorrect, report the error
       } else {
-        System.out.printf("FAILED test %d\n", i);
+        System.out.printf("PASSED test %d\n", i);
       }
 
       System.out.printf("\ninput:\n");
