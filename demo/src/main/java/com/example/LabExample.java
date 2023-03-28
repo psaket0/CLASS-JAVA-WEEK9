@@ -18,16 +18,24 @@ public class LabExample {
 
     /*
      * STUDENTS NEED TO ADD/EDIT CODE STARTING HERE
+     * 
      */
+   
+
+    }
+   
+    
 
     // This is example code that can be deleted to help you get started.
     // Here I am simply traversing the list and copying the input list to the output
     // answer list.
     // Students code needs to do something different.
-    LinkedListNode curr = input.head;
+    LinkedListNode curr = (LinkedListNode)input.head;
     while (curr != null) {
+      SinglyLinkedList answer;
       answer.insert(curr.turnRight, curr.street, curr.distance);
       curr = curr.next;
+
     }
 
     /*
